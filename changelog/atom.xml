@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.hackerone.com/changelog</id>
     <title>HackerOne Platform Changelog</title>
-    <updated>2020-09-26T17:51:43.660Z</updated>
+    <updated>2020-09-28T11:25:27.159Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>HackerOne</name>
