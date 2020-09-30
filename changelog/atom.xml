@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.hackerone.com/changelog</id>
     <title>HackerOne Platform Changelog</title>
-    <updated>2020-09-29T23:04:52.148Z</updated>
+    <updated>2020-09-30T11:48:22.531Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>HackerOne</name>
@@ -20,7 +20,7 @@
         <title type="html"><![CDATA[September 2020]]></title>
         <id>https://docs.hackerone.com/changelog/2020/september</id>
         <link href="https://docs.hackerone.com/changelog/2020/september"/>
-        <updated>2020-09-01T07:00:00.000Z</updated>
+        <updated>2020-08-31T22:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 id="report-transparency" style="position:relative;"><a href="#report-transparency" aria-label="report transparency permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Report Transparency</h3>
 <p>We've increased report transparency for hackers by actively showing that their report is being looked at. This helps hackers to have more visibility in the triage process. To increase report transparency we show:</p>
 <ul>
@@ -166,7 +166,7 @@
         <title type="html"><![CDATA[August 2020]]></title>
         <id>https://docs.hackerone.com/changelog/2020/august</id>
         <link href="https://docs.hackerone.com/changelog/2020/august"/>
-        <updated>2020-08-01T07:00:00.000Z</updated>
+        <updated>2020-07-31T22:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 id="configure-an-alternative-certificate-for-saml" style="position:relative;"><a href="#configure-an-alternative-certificate-for-saml" aria-label="configure an alternative certificate for saml permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configure an Alternative Certificate for SAML</h3>
 <p>If you need to switch your identity provider or if your current SAML certificate is expiring, you can now <a href="/programs/single-sign-on-sso-via-saml.html#configure-an-alternative-certificate">configure an alternative certificate</a> to avoid having to disable your SSO integration.</p>
 <p><span
@@ -202,7 +202,7 @@
         <title type="html"><![CDATA[July 2020]]></title>
         <id>https://docs.hackerone.com/changelog/2020/july</id>
         <link href="https://docs.hackerone.com/changelog/2020/july"/>
-        <updated>2020-07-01T07:00:00.000Z</updated>
+        <updated>2020-06-30T22:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 id="webhooks" style="position:relative;"><a href="#webhooks" aria-label="webhooks permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Webhooks</h3>
 <p>Enterprise programs can now utilize <a href="/programs/webhooks.html">webhooks</a> to build real-time integrations that subscribe to certain report and program events on HackerOne.</p>
 <p><span
@@ -247,7 +247,7 @@
         <title type="html"><![CDATA[June 2020]]></title>
         <id>https://docs.hackerone.com/changelog/2020/june</id>
         <link href="https://docs.hackerone.com/changelog/2020/june"/>
-        <updated>2020-06-01T07:00:00.000Z</updated>
+        <updated>2020-05-31T22:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 id="inline-report-cvss-details" style="position:relative;"><a href="#inline-report-cvss-details" aria-label="inline report cvss details permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Inline Report CVSS Details</h3>
 <p>We now show the updated CVSS details within the report activity when a program decides to change the severity level of a vulnerability.</p>
 <p><span
@@ -332,7 +332,7 @@
         <title type="html"><![CDATA[May 2020]]></title>
         <id>https://docs.hackerone.com/changelog/2020/may</id>
         <link href="https://docs.hackerone.com/changelog/2020/may"/>
-        <updated>2020-05-01T07:00:00.000Z</updated>
+        <updated>2020-04-30T22:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 id="explore" style="position:relative;"><a href="#explore" aria-label="explore permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explore</h3>
 <p>We've revamped the Response Targets dashboard and now call it <a href="/programs/explore.html">Explore</a>. Programs can now analyze their response targets, submissions and spend data, and Enterprise programs can also create benchmarks to see how they're doing in comparison to other programs.</p>
 <p><span
@@ -498,7 +498,7 @@
         <title type="html"><![CDATA[April 2020]]></title>
         <id>https://docs.hackerone.com/changelog/2020/april</id>
         <link href="https://docs.hackerone.com/changelog/2020/april"/>
-        <updated>2020-04-01T07:00:00.000Z</updated>
+        <updated>2020-03-31T22:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 id="monthly-payouts" style="position:relative;"><a href="#monthly-payouts" aria-label="monthly payouts permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Monthly Payouts</h3>
 <p>Hackers can now choose to receive their <a href="/hackers/payout-methods.html">payouts</a> monthly instead of daily, so that they can receive all their payments from the month in 1 batch payment.</p>
 <p><span
@@ -630,7 +630,7 @@
         <title type="html"><![CDATA[March 2020]]></title>
         <id>https://docs.hackerone.com/changelog/2020/march</id>
         <link href="https://docs.hackerone.com/changelog/2020/march"/>
-        <updated>2020-03-01T08:00:00.000Z</updated>
+        <updated>2020-02-29T23:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 id="dark-mode" style="position:relative;"><a href="#dark-mode" aria-label="dark mode permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dark Mode</h3>
 <p>You can now customize your HackerOne interface by choosing to view everything in dark mode. You can toggle your view experience by going to your profile drop-down.</p>
 <p><span
@@ -780,7 +780,7 @@
         <title type="html"><![CDATA[February 2020]]></title>
         <id>https://docs.hackerone.com/changelog/2020/february</id>
         <link href="https://docs.hackerone.com/changelog/2020/february"/>
-        <updated>2020-02-01T08:00:00.000Z</updated>
+        <updated>2020-01-31T23:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 id="hacker-full-name-and-addresses-in-custom-agreements" style="position:relative;"><a href="#hacker-full-name-and-addresses-in-custom-agreements" aria-label="hacker full name and addresses in custom agreements permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hacker Full Name and Addresses in Custom Agreements</h3>
 <p>Programs can now request hackers to provide their full name and address when accepting the <a href="/programs/advanced-vetting.html#digital-customizable-agreements">Digital Custom Agreement</a>.</p>
 <h3 id="digital-custom-agreements" style="position:relative;"><a href="#digital-custom-agreements" aria-label="digital custom agreements permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Digital Custom Agreements</h3>
@@ -820,7 +820,7 @@
         <title type="html"><![CDATA[January 2020]]></title>
         <id>https://docs.hackerone.com/changelog/2020/january</id>
         <link href="https://docs.hackerone.com/changelog/2020/january"/>
-        <updated>2020-01-01T08:00:00.000Z</updated>
+        <updated>2019-12-31T23:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 id="control-visibility-of-bounty-earnings" style="position:relative;"><a href="#control-visibility-of-bounty-earnings" aria-label="control visibility of bounty earnings permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Control Visibility of Bounty Earnings</h3>
 <p>Hackers can now control whether they want their earnings to be visible on Hacktivity and their profile. Go to your profile's <strong>Settings > Account Preferences</strong> to manage your bounty visibility.  </p>
 <p><span
@@ -858,7 +858,7 @@
         <title type="html"><![CDATA[December 2019]]></title>
         <id>https://docs.hackerone.com/changelog/2019/december</id>
         <link href="https://docs.hackerone.com/changelog/2019/december"/>
-        <updated>2019-12-01T08:00:00.000Z</updated>
+        <updated>2019-11-30T23:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3 id="suggested-redaction-in-report-comments" style="position:relative;"><a href="#suggested-redaction-in-report-comments" aria-label="suggested redaction in report comments permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Suggested Redaction in Report Comments</h3>
 <p>To better protect your sensitive information, we now provide a suggested redaction notification when your report comments contain sensitive information such as cookies, credentials, and authentication tokens.</p>
 <p><span
