@@ -4,15 +4,46 @@
         <title>HackerOne Platform Changelog</title>
         <link>https://docs.hackerone.com/changelog</link>
         <description>See what's changed or new in HackerOne.</description>
-        <lastBuildDate>Mon, 05 Oct 2020 12:25:39 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Oct 2020 19:29:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2020, HackerOne</copyright>
         <item>
+            <title><![CDATA[October 2020]]></title>
+            <link>https://docs.hackerone.com/changelog/2020/october</link>
+            <guid>https://docs.hackerone.com/changelog/2020/october</guid>
+            <pubDate>Thu, 01 Oct 2020 07:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3 id="bi-directional-servicenow-integration" style="position:relative;"><a href="#bi-directional-servicenow-integration" aria-label="bi directional servicenow integration permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bi-directional ServiceNow Integration</h3>
+<p>We now offer a bi-directional <a href="/programs/servicenow-integration.html">ServiceNow integration</a> to all Enterprise programs. This will create a better workflow of remediating security vulnerabilities as ServiceNow users can synchronize their HackerOne reports to ServiceNow incidents and vice versa, from ServiceNow to HackerOne. </p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 15.2%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAIAAAAcOLh5AAAACXBIWXMAAAsSAAALEgHS3X78AAAAdElEQVQI1zWOwQ4CIQxE+f8/1Ksxa4KAkbBI6bSOrDuZ9jBt+hrcHXNCRAHWVBi1QikZ42Oq3PmFnACrL5sFDmTb9ss1t/F4tfjufkr7LinOkvv9JilbbpqqPititdJICHYIcOKW7dRxghCMQb7xKZpw/ZO/1tSwAMLoHSUAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="servicenow option"
+        title="servicenow option"
+        src="/static/30e1ee072a4066aba25566e3b47856e0/0b533/oct_2020_servicenow.png"
+        srcset="/static/30e1ee072a4066aba25566e3b47856e0/fac75/oct_2020_servicenow.png 125w,
+/static/30e1ee072a4066aba25566e3b47856e0/63868/oct_2020_servicenow.png 250w,
+/static/30e1ee072a4066aba25566e3b47856e0/0b533/oct_2020_servicenow.png 500w,
+/static/30e1ee072a4066aba25566e3b47856e0/1d69c/oct_2020_servicenow.png 750w,
+/static/30e1ee072a4066aba25566e3b47856e0/00d43/oct_2020_servicenow.png 1000w"
+        sizes="(max-width: 500px) 100vw, 500px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[September 2020]]></title>
             <link>https://docs.hackerone.com/changelog/2020/september</link>
             <guid>https://docs.hackerone.com/changelog/2020/september</guid>
-            <pubDate>Mon, 31 Aug 2020 22:00:00 GMT</pubDate>
+            <pubDate>Tue, 01 Sep 2020 07:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3 id="report-transparency" style="position:relative;"><a href="#report-transparency" aria-label="report transparency permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Report Transparency</h3>
 <p>We've increased report transparency for hackers by actively showing that their report is being looked at. This helps hackers to have more visibility in the triage process. To increase report transparency we show:</p>
 <ul>
@@ -154,7 +185,7 @@
             <title><![CDATA[August 2020]]></title>
             <link>https://docs.hackerone.com/changelog/2020/august</link>
             <guid>https://docs.hackerone.com/changelog/2020/august</guid>
-            <pubDate>Fri, 31 Jul 2020 22:00:00 GMT</pubDate>
+            <pubDate>Sat, 01 Aug 2020 07:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3 id="configure-an-alternative-certificate-for-saml" style="position:relative;"><a href="#configure-an-alternative-certificate-for-saml" aria-label="configure an alternative certificate for saml permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configure an Alternative Certificate for SAML</h3>
 <p>If you need to switch your identity provider or if your current SAML certificate is expiring, you can now <a href="/programs/single-sign-on-sso-via-saml.html#configure-an-alternative-certificate">configure an alternative certificate</a> to avoid having to disable your SSO integration.</p>
 <p><span
@@ -186,7 +217,7 @@
             <title><![CDATA[July 2020]]></title>
             <link>https://docs.hackerone.com/changelog/2020/july</link>
             <guid>https://docs.hackerone.com/changelog/2020/july</guid>
-            <pubDate>Tue, 30 Jun 2020 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 01 Jul 2020 07:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3 id="webhooks" style="position:relative;"><a href="#webhooks" aria-label="webhooks permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Webhooks</h3>
 <p>Enterprise programs can now utilize <a href="/programs/webhooks.html">webhooks</a> to build real-time integrations that subscribe to certain report and program events on HackerOne.</p>
 <p><span
@@ -227,7 +258,7 @@
             <title><![CDATA[June 2020]]></title>
             <link>https://docs.hackerone.com/changelog/2020/june</link>
             <guid>https://docs.hackerone.com/changelog/2020/june</guid>
-            <pubDate>Sun, 31 May 2020 22:00:00 GMT</pubDate>
+            <pubDate>Mon, 01 Jun 2020 07:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3 id="inline-report-cvss-details" style="position:relative;"><a href="#inline-report-cvss-details" aria-label="inline report cvss details permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Inline Report CVSS Details</h3>
 <p>We now show the updated CVSS details within the report activity when a program decides to change the severity level of a vulnerability.</p>
 <p><span
@@ -308,7 +339,7 @@
             <title><![CDATA[May 2020]]></title>
             <link>https://docs.hackerone.com/changelog/2020/may</link>
             <guid>https://docs.hackerone.com/changelog/2020/may</guid>
-            <pubDate>Thu, 30 Apr 2020 22:00:00 GMT</pubDate>
+            <pubDate>Fri, 01 May 2020 07:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3 id="explore" style="position:relative;"><a href="#explore" aria-label="explore permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explore</h3>
 <p>We've revamped the Response Targets dashboard and now call it <a href="/programs/explore.html">Explore</a>. Programs can now analyze their response targets, submissions and spend data, and Enterprise programs can also create benchmarks to see how they're doing in comparison to other programs.</p>
 <p><span
@@ -470,7 +501,7 @@
             <title><![CDATA[April 2020]]></title>
             <link>https://docs.hackerone.com/changelog/2020/april</link>
             <guid>https://docs.hackerone.com/changelog/2020/april</guid>
-            <pubDate>Tue, 31 Mar 2020 22:00:00 GMT</pubDate>
+            <pubDate>Wed, 01 Apr 2020 07:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3 id="monthly-payouts" style="position:relative;"><a href="#monthly-payouts" aria-label="monthly payouts permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Monthly Payouts</h3>
 <p>Hackers can now choose to receive their <a href="/hackers/payout-methods.html">payouts</a> monthly instead of daily, so that they can receive all their payments from the month in 1 batch payment.</p>
 <p><span
@@ -598,7 +629,7 @@
             <title><![CDATA[March 2020]]></title>
             <link>https://docs.hackerone.com/changelog/2020/march</link>
             <guid>https://docs.hackerone.com/changelog/2020/march</guid>
-            <pubDate>Sat, 29 Feb 2020 23:00:00 GMT</pubDate>
+            <pubDate>Sun, 01 Mar 2020 08:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3 id="dark-mode" style="position:relative;"><a href="#dark-mode" aria-label="dark mode permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dark Mode</h3>
 <p>You can now customize your HackerOne interface by choosing to view everything in dark mode. You can toggle your view experience by going to your profile drop-down.</p>
 <p><span
@@ -744,7 +775,7 @@
             <title><![CDATA[February 2020]]></title>
             <link>https://docs.hackerone.com/changelog/2020/february</link>
             <guid>https://docs.hackerone.com/changelog/2020/february</guid>
-            <pubDate>Fri, 31 Jan 2020 23:00:00 GMT</pubDate>
+            <pubDate>Sat, 01 Feb 2020 08:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3 id="hacker-full-name-and-addresses-in-custom-agreements" style="position:relative;"><a href="#hacker-full-name-and-addresses-in-custom-agreements" aria-label="hacker full name and addresses in custom agreements permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hacker Full Name and Addresses in Custom Agreements</h3>
 <p>Programs can now request hackers to provide their full name and address when accepting the <a href="/programs/advanced-vetting.html#digital-customizable-agreements">Digital Custom Agreement</a>.</p>
 <h3 id="digital-custom-agreements" style="position:relative;"><a href="#digital-custom-agreements" aria-label="digital custom agreements permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Digital Custom Agreements</h3>
@@ -780,7 +811,7 @@
             <title><![CDATA[January 2020]]></title>
             <link>https://docs.hackerone.com/changelog/2020/january</link>
             <guid>https://docs.hackerone.com/changelog/2020/january</guid>
-            <pubDate>Tue, 31 Dec 2019 23:00:00 GMT</pubDate>
+            <pubDate>Wed, 01 Jan 2020 08:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3 id="control-visibility-of-bounty-earnings" style="position:relative;"><a href="#control-visibility-of-bounty-earnings" aria-label="control visibility of bounty earnings permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Control Visibility of Bounty Earnings</h3>
 <p>Hackers can now control whether they want their earnings to be visible on Hacktivity and their profile. Go to your profile's <strong>Settings > Account Preferences</strong> to manage your bounty visibility.  </p>
 <p><span
@@ -809,40 +840,6 @@
     </span></p>
 <h3 id="linking-phabricator-tickets" style="position:relative;"><a href="#linking-phabricator-tickets" aria-label="linking phabricator tickets permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Linking Phabricator Tickets</h3>
 <p>Programs using the Phabricator integration can now link their Phabricator tickets to their reports on HackerOne.  </p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[December 2019]]></title>
-            <link>https://docs.hackerone.com/changelog/2019/december</link>
-            <guid>https://docs.hackerone.com/changelog/2019/december</guid>
-            <pubDate>Sat, 30 Nov 2019 23:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h3 id="suggested-redaction-in-report-comments" style="position:relative;"><a href="#suggested-redaction-in-report-comments" aria-label="suggested redaction in report comments permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Suggested Redaction in Report Comments</h3>
-<p>To better protect your sensitive information, we now provide a suggested redaction notification when your report comments contain sensitive information such as cookies, credentials, and authentication tokens.</p>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 51.2%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABlElEQVQoz42QP0/CQByG+SLuLsYJATUKGIxK4oB+BCfj7OwqiYt/URNFvoSrk4mTE4ZFpYXQlt6VKqUt/fd6d1RIHAyXPPm9vd4997tLOI6D4XAIXdehaZrInufBNE0oioJutwvf9xFFEcIw/Be+JsEDF/DNqqoKcafTEdWyLAH/z6XTkAAbPPBOfiW8S37QtCOKaxiEE2Gj0UC9Xhdi3rpYGEVTS83Ahe17I2EQBCCEiDeklI7fcZoruq6L0PPxZhLotjURuvYA/a8vGExsEF1kZ2DBsf7A5mwrpt9Hz6DQVQ26QuHYDhOya/29mM9wGAPG9y9sUT/OvPbCURZ7w8lbig69DxnGxR16tzX0bmowKlVQzlUV5LoGUnkA4TmulM9xLu9Bj89By+cg5TNYj08j4eDpGZ9zaUipHJrJFUjJVciLa5Azecjp3BhpIQs5lY2/83ifmcXnfAbGySnaxR1o+4cjof3yiuZGCe3NElqbOwxWt+Ia0y7uQs5uQVoqMNYhLTMy7NBcEcreAVqFbZCjMn4AXyjJ7AVn1BgAAAAASUVORK5CYII='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="redaction notification"
-        title="redaction notification"
-        src="/static/0af9b7c3473852787b0476aa1fb7eca5/0b533/dec_2019_redaction_notification.png"
-        srcset="/static/0af9b7c3473852787b0476aa1fb7eca5/fac75/dec_2019_redaction_notification.png 125w,
-/static/0af9b7c3473852787b0476aa1fb7eca5/63868/dec_2019_redaction_notification.png 250w,
-/static/0af9b7c3473852787b0476aa1fb7eca5/0b533/dec_2019_redaction_notification.png 500w,
-/static/0af9b7c3473852787b0476aa1fb7eca5/1d69c/dec_2019_redaction_notification.png 750w,
-/static/0af9b7c3473852787b0476aa1fb7eca5/00d43/dec_2019_redaction_notification.png 1000w,
-/static/0af9b7c3473852787b0476aa1fb7eca5/669eb/dec_2019_redaction_notification.png 1244w"
-        sizes="(max-width: 500px) 100vw, 500px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-    </span></p>
-<h3 id="ability-to-remove-jira-references" style="position:relative;"><a href="#ability-to-remove-jira-references" aria-label="ability to remove jira references permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ability to Remove Jira References</h3>
-<p>Jira users can now remove a Jira reference on a report in case they linked the wrong Jira ticket or they need to escalate the report to Jira again.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
