@@ -56,9 +56,9 @@
 <p>To set up the bi-directional integration between HackerOne and your ServiceNow instance, you’ll need to follow these 4 steps:</p>
 <ol>
 <li><a href="#configure-incoming-requests">Configure incoming requests in your ServiceNow instance</a></li>
+<li><a href="#configure-on-hackerone">Configure the integration on HackerOne</a></li>
 <li><a href="#configure-outgoing-requests">Configure outgoing requests in your ServiceNow instance</a></li>
 <li><a href="#configure-close-report-event">Configure a “close report” request from ServiceNow to HackerOne</a></li>
-<li><a href="#configure-on-hackerone">Configure the integration on HackerOne</a></li>
 </ol>
 <h3 id="configure-incoming-requests" style="position:relative;"><a href="#configure-incoming-requests" aria-label="configure incoming requests permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configure Incoming Requests</h3>
 <p>Configuring incoming requests requires you to post to a custom REST API endpoint in ServiceNow. This will enable you to add comments from HackerOne to your ServiceNow instance.</p>
@@ -327,6 +327,218 @@
         loading="lazy"
       />
     </span></p>
+<h3 id="configure-on-hackerone" style="position:relative;"><a href="#configure-on-hackerone" aria-label="configure on hackerone permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configure on HackerOne</h3>
+<p>To set up the integration on HackerOne:</p>
+<ol>
+<li>Navigate to <strong>Program Settings > Program > Integrations</strong>.</li>
+<li>Click <strong>Connect with ServiceNow</strong>.</li>
+</ol>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 15.2%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAgElEQVQI112OUQ/DIAiE/f8/cdlbE186bbOuVRG4KbbbMpIL4fgg51QVQgTJGVQZmdh69xWAVEJZArjtO6ciUD7VuUt9bjeuH5H3SLc74qvAxx3hmfCpBvGxo4TZHic/ocYV0jh+bEPzBlkPw50lOQXLZF/w63/dkdhS6h8jo78Bod3rnDIIsv0AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="servicenow-16"
+        title="servicenow-16"
+        src="/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/0b533/servicenow-16.png"
+        srcset="/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/fac75/servicenow-16.png 125w,
+/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/63868/servicenow-16.png 250w,
+/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/0b533/servicenow-16.png 500w,
+/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/1d69c/servicenow-16.png 750w,
+/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/00d43/servicenow-16.png 1000w,
+/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/94cea/servicenow-16.png 1940w"
+        sizes="(max-width: 500px) 100vw, 500px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<ol start="3">
+<li>Click <strong>Edit</strong> to start the setup process.</li>
+</ol>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 35.2%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA/UlEQVQoz4WSTU7EMAyFe/9DseEAI7GFFRLlrzQlaSeJnfjhuJ2IGRZU+uTUdqz33A7MjJxzp5SCWqvx+9zRXKH8N3/0D0SEbdsQQsC6rvjvKSmC3JedReSq1oYOOSW4eYb3Ac45zPOOcwumaUKM8eqyqIr0+daHtLzVFBtYNEkKUwIpzGqbyWC1JrV1iCFSbQhvK+L7aPaPsdaxK3x8Qri7h2dgCYJFXX9vO/4MuLXlqiLgsisx67rvOD7Dv37oynTXblYRjIFfRpxPD0jaFFNFzIJEgkhHtHetZVUg3WePpAXKFaKr6ZZNbmGz16g38UL7irdU252eNbY/5ge5FCWLDY8aZQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="servicenow-17"
+        title="servicenow-17"
+        src="/static/4a46811606d18d7dc4d79e33f8c5bb96/0b533/servicenow-17.png"
+        srcset="/static/4a46811606d18d7dc4d79e33f8c5bb96/fac75/servicenow-17.png 125w,
+/static/4a46811606d18d7dc4d79e33f8c5bb96/63868/servicenow-17.png 250w,
+/static/4a46811606d18d7dc4d79e33f8c5bb96/0b533/servicenow-17.png 500w,
+/static/4a46811606d18d7dc4d79e33f8c5bb96/1d69c/servicenow-17.png 750w,
+/static/4a46811606d18d7dc4d79e33f8c5bb96/00d43/servicenow-17.png 1000w,
+/static/4a46811606d18d7dc4d79e33f8c5bb96/89557/servicenow-17.png 1928w"
+        sizes="(max-width: 500px) 100vw, 500px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<ol start="4">
+<li>Authenticate your ServiceNow instance by entered information to these fields:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ServiceNow Instance URL</td>
+<td>Enter the full URL to your ServiceNow instance, for example it could be: <a href="https://my-instance.service-now.com/">https://my-instance.service-now.com/</a></td>
+</tr>
+<tr>
+<td>Username &#x26; Password</td>
+<td>Enter the credentials for a user that has access to the ServiceNow instance.</td>
+</tr>
+</tbody>
+</table>
+<ol start="5">
+<li>Configure data mapping from HackerOne reports to ServiceNow incidents. This uses the API of both systems to retrieve fields that are allowed to be used for these objects. For example, you could map the HackerOne report title to the ServiceNow incident short description.</li>
+</ol>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAAA5UlEQVQoz5VS7Y6EIAz0/Z/x7v5dbmM0GkuBUlpuxOxm7yNmnUxQy4yUgUFEYozckVKyO7TWB6v9A1UdYF6WZZqmcRyJqL0M/HMopfydMG8z2cqGcd7QhZ+Z0Ya7W38091r941Y+Z32/6dtXiWLQHALv+GEWKdtGITBGIsZL4gDmFEEOTBRA5AJBSvms7b7OTuu8tudrgbE0yi2W34tz2euYPTNLsZg1Cw71iKz3bC5qKdf0VEcRNt9DvZurau7A55EngoUBir2aMhLtee8eaI57MuCiwIwkkfC6bszx8p79Ca+bvwHqcsSfd9D+MwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="servicenow-18"
+        title="servicenow-18"
+        src="/static/dfd6261e00788a9d83acbd294eb27da9/0b533/servicenow-18.png"
+        srcset="/static/dfd6261e00788a9d83acbd294eb27da9/fac75/servicenow-18.png 125w,
+/static/dfd6261e00788a9d83acbd294eb27da9/63868/servicenow-18.png 250w,
+/static/dfd6261e00788a9d83acbd294eb27da9/0b533/servicenow-18.png 500w,
+/static/dfd6261e00788a9d83acbd294eb27da9/01e7c/servicenow-18.png 512w"
+        sizes="(max-width: 500px) 100vw, 500px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<ol start="6">
+<li>Click <strong>Next</strong>.</li>
+<li>Enter your ServiceNow New Comment endpoint that was configured earlier in the <strong>ServiceNow “Add Comment” endpoint</strong> field. This should be a combination of the URL to your instance and the Resource Path found in the Scripted REST API object in ServiceNow.</li>
+</ol>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 15.2%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAeUlEQVQI14WM4Q7CIAyEef/31IzBzICW4hycFMn0n00u12uun/H+gWVxULfWw7kN67qNfLtbUEz4N621S+Z1nuCcIVK+KgVlipgRO3TfA0KIIGKkRMhZkKi7yAWrtcI8jwMxJTB/ilpSMefxrDDNv/vIva83mcA6gW9cvejpoxLXagAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="servicenow-19"
+        title="servicenow-19"
+        src="/static/4a46cfee55c010f23aa518f6eec5e9b3/0b533/servicenow-19.png"
+        srcset="/static/4a46cfee55c010f23aa518f6eec5e9b3/fac75/servicenow-19.png 125w,
+/static/4a46cfee55c010f23aa518f6eec5e9b3/63868/servicenow-19.png 250w,
+/static/4a46cfee55c010f23aa518f6eec5e9b3/0b533/servicenow-19.png 500w,
+/static/4a46cfee55c010f23aa518f6eec5e9b3/1d69c/servicenow-19.png 750w,
+/static/4a46cfee55c010f23aa518f6eec5e9b3/00d43/servicenow-19.png 1000w,
+/static/4a46cfee55c010f23aa518f6eec5e9b3/9c701/servicenow-19.png 1774w"
+        sizes="(max-width: 500px) 100vw, 500px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 29.599999999999998%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABEUlEQVQY002Qa26EMAyEuf85+qO3qLTqIapW3S2URxIIJUDCK2Rqp81qkUaYYM98cVYqhc+8wPv1hrKscf3K0QgJfwY4JXBsGw7vsR8Hjn9xve/pvd91nieyuqjw/HrB0+UFomqg2g7GjOgHg6EsMFHddj2k6qIEqabAupFoZItvgqioLmuB2VpkZpqg+x56+MG6rn8ElOYpzdHZ0il4ABuTHh4hhChP1NzPpNu232eywc4YyVR0LcZxhNYazrmoqmnQfrxB57dI1dJ6Juq1RLIsC6SUEcAYE/vjlR39WCjJznNMeXwIBIGaTt4PffAAk6Vd8hxT8hkrGrLJTGaWEtJiH5WuGB7qZMxrWNctmifTX+agzomoh5UAAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="servicenow-20"
+        title="servicenow-20"
+        src="/static/8019701a497c7ae68284db9dac052476/0b533/servicenow-20.png"
+        srcset="/static/8019701a497c7ae68284db9dac052476/fac75/servicenow-20.png 125w,
+/static/8019701a497c7ae68284db9dac052476/63868/servicenow-20.png 250w,
+/static/8019701a497c7ae68284db9dac052476/0b533/servicenow-20.png 500w,
+/static/8019701a497c7ae68284db9dac052476/1d69c/servicenow-20.png 750w,
+/static/8019701a497c7ae68284db9dac052476/00d43/servicenow-20.png 1000w,
+/static/8019701a497c7ae68284db9dac052476/460fa/servicenow-20.png 1910w"
+        sizes="(max-width: 500px) 100vw, 500px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<ol start="8">
+<li>Click <strong>Next</strong>.</li>
+<li>Copy the public listener URL in the configuration wizard.</li>
+<li>Go back to ServiceNow and open the Outbound REST Message,</li>
+<li>Paste the copied public listener URL in the <strong>Endpoint</strong> field.</li>
+</ol>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 27.200000000000003%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA1klEQVQY02WP227CMAyG+/7PN7EhxG5YQw50rClN0xz6z3YVuCDSJ7tx/NntlNb4OHzh8HlErzSMG6CNg7Y3wu15g+4s1a/G4nT+xuVHob9qKOLSKxxPZ3R5nhBDQFgWBIoxRpRaUUoRKuXMtm1S4zf3vxGPeRb89JDeKj0V3TpYlDXKRaRCSukpaSI+LP8dBnjvobWhjQ1t6zCOHgv1Afs7ES7ThIWmt8MS9uxsAstzzs9BnLc/aEM5dOnuEG4WmYppXWnDd3JO1MyyskcRldc3Rcjgin/k44NDfHTDHAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="servicenow-21"
+        title="servicenow-21"
+        src="/static/6802cb7afdcb450be7c46dba79e785fa/0b533/servicenow-21.png"
+        srcset="/static/6802cb7afdcb450be7c46dba79e785fa/fac75/servicenow-21.png 125w,
+/static/6802cb7afdcb450be7c46dba79e785fa/63868/servicenow-21.png 250w,
+/static/6802cb7afdcb450be7c46dba79e785fa/0b533/servicenow-21.png 500w,
+/static/6802cb7afdcb450be7c46dba79e785fa/1d69c/servicenow-21.png 750w,
+/static/6802cb7afdcb450be7c46dba79e785fa/00d43/servicenow-21.png 1000w,
+/static/6802cb7afdcb450be7c46dba79e785fa/912fc/servicenow-21.png 1934w"
+        sizes="(max-width: 500px) 100vw, 500px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<ol start="12">
+<li>Click <strong>Enable</strong> to finish enable the integration.</li>
+</ol>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 26.400000000000002%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAyElEQVQY022PS27DMAxEff/rBOgdsgnaC2TRJm0XlmRZlvWjOKUVWynQEnggRWEGw2FdVzjnYK2F9x7/FTM32kwEiuHv/96HGGIzCiFgM885I6XUqbV20VY1RoSvu3BD+P5EzelwbW1YRGRmCydorTBNpmPkXUo+cvQkW5HoyuLg369IenwmpI8bSE0osigkSCD6RSobjFy4n36kbcYy6tcLyM17wtMLzPkNSoKMhqDm2tA7o2XpDOP4uKr1hynDi24xK6pSbf8Dtt2Gex/VqosAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="servicenow-22"
+        title="servicenow-22"
+        src="/static/12938b94607de900890017d9b7e2d1d6/0b533/servicenow-22.png"
+        srcset="/static/12938b94607de900890017d9b7e2d1d6/fac75/servicenow-22.png 125w,
+/static/12938b94607de900890017d9b7e2d1d6/63868/servicenow-22.png 250w,
+/static/12938b94607de900890017d9b7e2d1d6/0b533/servicenow-22.png 500w,
+/static/12938b94607de900890017d9b7e2d1d6/1d69c/servicenow-22.png 750w,
+/static/12938b94607de900890017d9b7e2d1d6/00d43/servicenow-22.png 1000w,
+/static/12938b94607de900890017d9b7e2d1d6/9f9a4/servicenow-22.png 1560w"
+        sizes="(max-width: 500px) 100vw, 500px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
 <h3 id="configure-outgoing-requests" style="position:relative;"><a href="#configure-outgoing-requests" aria-label="configure outgoing requests permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configure Outgoing Requests</h3>
 <p>After configuring incoming requests, you’ll need to configure outgoing requests in ServiceNow which will enable you to post comments from ServiceNow to HackerOne. You’ll need to use Outbound REST Messages and Business Rules in the configuration process.</p>
 <p>To configure posting comments from ServiceNow to HackerOne:</p>
@@ -526,7 +738,7 @@
 </tr>
 <tr>
 <td>Table</td>
-<td>Journal Entry [sys<em>journal</em>field]</td>
+<td>Journal Entry [sys_journal_field]</td>
 </tr>
 <tr>
 <td>Advanced</td>
@@ -582,8 +794,36 @@
 <p>The close report event from ServiceNow to HackerOne is set up in a similar fashion to configuring the outgoing requests. You only need to change the content in the Outbound REST Message and the trigger action in the Business Rule.</p>
 <p>To set up the close report event:</p>
 <ol>
+<li>
+<ol>
+<li>Navigate to: <strong>System Web Services > Outbound > REST Message</strong>.</li>
+</ol>
+</li>
+</ol>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 284px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 140%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAIAAADuuAg3AAAACXBIWXMAAAsSAAALEgHS3X78AAAES0lEQVQ4y4VUaW/iVhT1D6hUqe3MaBISCPvufcOAsbGxsQ0JhCWsHQIBsrcdTScaVeqHSpW6fJym86WV2l/Un9QDpFWS6SIdPd93dc999917nomkqlGmxVpVyqiojUOmYnOWAw9pVMiymSrpUaUYUwrxghrLFyO5fEQpRNfbRLFEIPTn337//qfbxavX3729/eH23dtffp29uZl+/ebH23eFg+bg7OJwNm/NFpPPvuifnY8ur/tnF/XxJJorEFnTlOv7nONQFYutOoLn8Y5LWRZt22KtljVM0asJrse7ruDW8o1GvtmEB9uUrhNczWVch/Nc1nNY12Hc6mpbc4W6B6ewX4PN1Tx+tbrwYKUdO10xzOGASKkaV3EYsypWPd5yNmBMO6Xq6VL5ETKlcrKo6a1u8aBZbncJNEZ0avn9xujyqnE8bc8Xy9c3zmgclhW0BI25D3iCUm58dT17+Uprd4ikqmd1I6OtE2tGRjcow8qWTbSaWjf8ERDAWVUEm90escpXUFF8uqRjbADSozZ4QlIOg4GRXHnukNbKiAnwkjMc42QN09Pb3fZ8CdoGyTXz9OZNY3qCOjcZMWfatFonC952AoLkrsjriwmOB4WsTy6hEDhBbs3mRrsbBrm4csbzRVzQ7g9poxLgRXc4InBsSMztCRL2QVFGnxAEIBoepNjQNoDUork8PHu86AyGBPrcnM5QTOtkjsqt/uB+8ZuC7wMeaBbHrO7MWDb42mFbb3Vwc9gbzj8yN0AL78gBlt9jeR9Jb6WzWxlyO0v5KSZAswGG2yCE4h8iIkgIq0AkO1mqP1/Wh6P2ZNo6nh6MP+3PF80XE9j1wbA+GCHR3kOEGO55Mm00W8QecnNCVJRTGKlSyBZVWtMzBRVI54sAAh4hxPLPUxnjcE1G7hi6KitIARu17JI0it/gf8hAY/yi1h+2JtPh8mxyeTVcnsbWid5nBhn2Hpnl0ZVdit0h6V0cRbPoRxhjRxwnPEKY4328FETDMqTZ6hDU6lW5UJjo1mSvzlddznYgQPihx7/fU3K97hb1jsToedkn5tzBiCi12sefv+ydnkMh+MXgj9NZLPvnF+ZRb8VZTzutlsKqHle1azF9IWWyJS0oK+5oTERkZZukdxjOR7MADD8nhKBTKQclAvFcfktRFVn6iokc8KRPUaP5op/l7d6A8JO01e7KtiNXnVzVVRyXVLXddZNDNLtLc08ZoUHGv0z7KYp6xgih1Zz5uzljGPjojcNqt+f1h/ujsWRV4Qyy/EesiBSX2eA0G9mGChkhzLCPRwXraSzxLJH6JBr/OBx9Ekv4MuQOw3+T8X2b3jap1BNGwNiCf03uARmH2J2jSqvt9gZOt+ce9XjHE8jMH4kPpmTkQ1aKMOy/iARvgGJQqmBaWEv1A+eop7i1cBaHc1s0H/4PbUehSlkJ4rkIMp54gBMAbDGFhLzW7HtA//0MZx/1/wSCg5Dz0TAL7AAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="servicenow-8"
+        title="servicenow-8"
+        src="/static/0f9189d39a2a4a92e5bc3715bc33003a/62f93/servicenow-8.png"
+        srcset="/static/0f9189d39a2a4a92e5bc3715bc33003a/fac75/servicenow-8.png 125w,
+/static/0f9189d39a2a4a92e5bc3715bc33003a/63868/servicenow-8.png 250w,
+/static/0f9189d39a2a4a92e5bc3715bc33003a/62f93/servicenow-8.png 284w"
+        sizes="(max-width: 284px) 100vw, 284px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<ol start="2">
 <li>Search for the HackerOne REST Message that was set up in the previous section.</li>
-<li>Click <strong>New</strong> to add a new message.</li>
+<li>Click <strong>New</strong> to add a new method.</li>
 </ol>
 <p><span
       class="gatsby-resp-image-wrapper"
@@ -709,218 +949,7 @@
  }
 )(current, previous);
 </code></pre>
-<p>Make sure the arguments for RESTMessageV2 match the name you gave the Outbound REST Message and HTTP Method.</p>
-<h3 id="configure-on-hackerone" style="position:relative;"><a href="#configure-on-hackerone" aria-label="configure on hackerone permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configure on HackerOne</h3>
-<p>After configuring all of the steps above, you’re now ready to configure the integration on HackerOne.</p>
-<p>To set up the integration on HackerOne:</p>
-<ol>
-<li>Navigate to <strong>Program Settings > Program > Integrations</strong>.</li>
-<li>Click <strong>Connect with ServiceNow</strong>.</li>
-</ol>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 15.2%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAgElEQVQI112OUQ/DIAiE/f8/cdlbE186bbOuVRG4KbbbMpIL4fgg51QVQgTJGVQZmdh69xWAVEJZArjtO6ciUD7VuUt9bjeuH5H3SLc74qvAxx3hmfCpBvGxo4TZHic/ocYV0jh+bEPzBlkPw50lOQXLZF/w63/dkdhS6h8jo78Bod3rnDIIsv0AAAAASUVORK5CYII='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="servicenow-16"
-        title="servicenow-16"
-        src="/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/0b533/servicenow-16.png"
-        srcset="/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/fac75/servicenow-16.png 125w,
-/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/63868/servicenow-16.png 250w,
-/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/0b533/servicenow-16.png 500w,
-/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/1d69c/servicenow-16.png 750w,
-/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/00d43/servicenow-16.png 1000w,
-/static/6aeea2ce7fdc5d1af6d66fe9d9fa8bf6/94cea/servicenow-16.png 1940w"
-        sizes="(max-width: 500px) 100vw, 500px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-    </span></p>
-<ol start="3">
-<li>Click <strong>Edit</strong> to start the setup process.</li>
-</ol>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 35.2%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA/UlEQVQoz4WSTU7EMAyFe/9DseEAI7GFFRLlrzQlaSeJnfjhuJ2IGRZU+uTUdqz33A7MjJxzp5SCWqvx+9zRXKH8N3/0D0SEbdsQQsC6rvjvKSmC3JedReSq1oYOOSW4eYb3Ac45zPOOcwumaUKM8eqyqIr0+daHtLzVFBtYNEkKUwIpzGqbyWC1JrV1iCFSbQhvK+L7aPaPsdaxK3x8Qri7h2dgCYJFXX9vO/4MuLXlqiLgsisx67rvOD7Dv37oynTXblYRjIFfRpxPD0jaFFNFzIJEgkhHtHetZVUg3WePpAXKFaKr6ZZNbmGz16g38UL7irdU252eNbY/5ge5FCWLDY8aZQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="servicenow-17"
-        title="servicenow-17"
-        src="/static/4a46811606d18d7dc4d79e33f8c5bb96/0b533/servicenow-17.png"
-        srcset="/static/4a46811606d18d7dc4d79e33f8c5bb96/fac75/servicenow-17.png 125w,
-/static/4a46811606d18d7dc4d79e33f8c5bb96/63868/servicenow-17.png 250w,
-/static/4a46811606d18d7dc4d79e33f8c5bb96/0b533/servicenow-17.png 500w,
-/static/4a46811606d18d7dc4d79e33f8c5bb96/1d69c/servicenow-17.png 750w,
-/static/4a46811606d18d7dc4d79e33f8c5bb96/00d43/servicenow-17.png 1000w,
-/static/4a46811606d18d7dc4d79e33f8c5bb96/89557/servicenow-17.png 1928w"
-        sizes="(max-width: 500px) 100vw, 500px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-    </span></p>
-<ol start="4">
-<li>Authenticate your ServiceNow instance by entered information to these fields:</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th>Field</th>
-<th>Details</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ServiceNow Instance URL</td>
-<td>Enter the full URL to your ServiceNow instance, for example it could be: <a href="https://my-instance.service-now.com/">https://my-instance.service-now.com/</a></td>
-</tr>
-<tr>
-<td>Username &#x26; Password</td>
-<td>Enter the credentials for a user that has access to the ServiceNow instance.</td>
-</tr>
-</tbody>
-</table>
-<ol start="5">
-<li>Configure data mapping from HackerOne reports to ServiceNow incidents. This uses the API of both systems to retrieve fields that are allowed to be used for these objects. For example, you could map the HackerOne report title to ServiceNow incident short description.</li>
-</ol>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAAA5UlEQVQoz5VS7Y6EIAz0/Z/x7v5dbmM0GkuBUlpuxOxm7yNmnUxQy4yUgUFEYozckVKyO7TWB6v9A1UdYF6WZZqmcRyJqL0M/HMopfydMG8z2cqGcd7QhZ+Z0Ya7W38091r941Y+Z32/6dtXiWLQHALv+GEWKdtGITBGIsZL4gDmFEEOTBRA5AJBSvms7b7OTuu8tudrgbE0yi2W34tz2euYPTNLsZg1Cw71iKz3bC5qKdf0VEcRNt9DvZurau7A55EngoUBir2aMhLtee8eaI57MuCiwIwkkfC6bszx8p79Ca+bvwHqcsSfd9D+MwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="servicenow-18"
-        title="servicenow-18"
-        src="/static/dfd6261e00788a9d83acbd294eb27da9/0b533/servicenow-18.png"
-        srcset="/static/dfd6261e00788a9d83acbd294eb27da9/fac75/servicenow-18.png 125w,
-/static/dfd6261e00788a9d83acbd294eb27da9/63868/servicenow-18.png 250w,
-/static/dfd6261e00788a9d83acbd294eb27da9/0b533/servicenow-18.png 500w,
-/static/dfd6261e00788a9d83acbd294eb27da9/01e7c/servicenow-18.png 512w"
-        sizes="(max-width: 500px) 100vw, 500px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-    </span></p>
-<ol start="6">
-<li>Enter your ServiceNow New Comment endpoint that was configured earlier in the <strong>ServiceNow “Add Comment” endpoint</strong>. This should be a combination of the URL to your instance and the Resource Path found in the Scripted REST API object in ServiceNow.</li>
-</ol>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 15.2%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAeUlEQVQI14WM4Q7CIAyEef/31IzBzICW4hycFMn0n00u12uun/H+gWVxULfWw7kN67qNfLtbUEz4N621S+Z1nuCcIVK+KgVlipgRO3TfA0KIIGKkRMhZkKi7yAWrtcI8jwMxJTB/ilpSMefxrDDNv/vIva83mcA6gW9cvejpoxLXagAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="servicenow-19"
-        title="servicenow-19"
-        src="/static/4a46cfee55c010f23aa518f6eec5e9b3/0b533/servicenow-19.png"
-        srcset="/static/4a46cfee55c010f23aa518f6eec5e9b3/fac75/servicenow-19.png 125w,
-/static/4a46cfee55c010f23aa518f6eec5e9b3/63868/servicenow-19.png 250w,
-/static/4a46cfee55c010f23aa518f6eec5e9b3/0b533/servicenow-19.png 500w,
-/static/4a46cfee55c010f23aa518f6eec5e9b3/1d69c/servicenow-19.png 750w,
-/static/4a46cfee55c010f23aa518f6eec5e9b3/00d43/servicenow-19.png 1000w,
-/static/4a46cfee55c010f23aa518f6eec5e9b3/9c701/servicenow-19.png 1774w"
-        sizes="(max-width: 500px) 100vw, 500px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-    </span></p>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 29.599999999999998%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABEUlEQVQY002Qa26EMAyEuf85+qO3qLTqIapW3S2URxIIJUDCK2Rqp81qkUaYYM98cVYqhc+8wPv1hrKscf3K0QgJfwY4JXBsGw7vsR8Hjn9xve/pvd91nieyuqjw/HrB0+UFomqg2g7GjOgHg6EsMFHddj2k6qIEqabAupFoZItvgqioLmuB2VpkZpqg+x56+MG6rn8ElOYpzdHZ0il4ABuTHh4hhChP1NzPpNu232eywc4YyVR0LcZxhNYazrmoqmnQfrxB57dI1dJ6Juq1RLIsC6SUEcAYE/vjlR39WCjJznNMeXwIBIGaTt4PffAAk6Vd8hxT8hkrGrLJTGaWEtJiH5WuGB7qZMxrWNctmifTX+agzomoh5UAAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="servicenow-20"
-        title="servicenow-20"
-        src="/static/8019701a497c7ae68284db9dac052476/0b533/servicenow-20.png"
-        srcset="/static/8019701a497c7ae68284db9dac052476/fac75/servicenow-20.png 125w,
-/static/8019701a497c7ae68284db9dac052476/63868/servicenow-20.png 250w,
-/static/8019701a497c7ae68284db9dac052476/0b533/servicenow-20.png 500w,
-/static/8019701a497c7ae68284db9dac052476/1d69c/servicenow-20.png 750w,
-/static/8019701a497c7ae68284db9dac052476/00d43/servicenow-20.png 1000w,
-/static/8019701a497c7ae68284db9dac052476/460fa/servicenow-20.png 1910w"
-        sizes="(max-width: 500px) 100vw, 500px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-    </span></p>
-<ol start="7">
-<li>Copy the public listener URL in the configuration wizard.</li>
-<li>Go back to ServiceNow and open the Outbound REST Message,</li>
-<li>Paste the copied public listener URL in the <strong>Endpoint</strong> field.</li>
-</ol>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 27.200000000000003%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA1klEQVQY02WP227CMAyG+/7PN7EhxG5YQw50rClN0xz6z3YVuCDSJ7tx/NntlNb4OHzh8HlErzSMG6CNg7Y3wu15g+4s1a/G4nT+xuVHob9qKOLSKxxPZ3R5nhBDQFgWBIoxRpRaUUoRKuXMtm1S4zf3vxGPeRb89JDeKj0V3TpYlDXKRaRCSukpaSI+LP8dBnjvobWhjQ1t6zCOHgv1Afs7ES7ThIWmt8MS9uxsAstzzs9BnLc/aEM5dOnuEG4WmYppXWnDd3JO1MyyskcRldc3Rcjgin/k44NDfHTDHAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="servicenow-21"
-        title="servicenow-21"
-        src="/static/6802cb7afdcb450be7c46dba79e785fa/0b533/servicenow-21.png"
-        srcset="/static/6802cb7afdcb450be7c46dba79e785fa/fac75/servicenow-21.png 125w,
-/static/6802cb7afdcb450be7c46dba79e785fa/63868/servicenow-21.png 250w,
-/static/6802cb7afdcb450be7c46dba79e785fa/0b533/servicenow-21.png 500w,
-/static/6802cb7afdcb450be7c46dba79e785fa/1d69c/servicenow-21.png 750w,
-/static/6802cb7afdcb450be7c46dba79e785fa/00d43/servicenow-21.png 1000w,
-/static/6802cb7afdcb450be7c46dba79e785fa/912fc/servicenow-21.png 1934w"
-        sizes="(max-width: 500px) 100vw, 500px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-    </span></p>
-<ol start="10">
-<li>Click <strong>Enable</strong> to finish enable the integration.</li>
-</ol>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 26.400000000000002%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAyElEQVQY022PS27DMAxEff/rBOgdsgnaC2TRJm0XlmRZlvWjOKUVWynQEnggRWEGw2FdVzjnYK2F9x7/FTM32kwEiuHv/96HGGIzCiFgM885I6XUqbV20VY1RoSvu3BD+P5EzelwbW1YRGRmCydorTBNpmPkXUo+cvQkW5HoyuLg369IenwmpI8bSE0osigkSCD6RSobjFy4n36kbcYy6tcLyM17wtMLzPkNSoKMhqDm2tA7o2XpDOP4uKr1hynDi24xK6pSbf8Dtt2Gex/VqosAAAAASUVORK5CYII='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="servicenow-22"
-        title="servicenow-22"
-        src="/static/12938b94607de900890017d9b7e2d1d6/0b533/servicenow-22.png"
-        srcset="/static/12938b94607de900890017d9b7e2d1d6/fac75/servicenow-22.png 125w,
-/static/12938b94607de900890017d9b7e2d1d6/63868/servicenow-22.png 250w,
-/static/12938b94607de900890017d9b7e2d1d6/0b533/servicenow-22.png 500w,
-/static/12938b94607de900890017d9b7e2d1d6/1d69c/servicenow-22.png 750w,
-/static/12938b94607de900890017d9b7e2d1d6/00d43/servicenow-22.png 1000w,
-/static/12938b94607de900890017d9b7e2d1d6/9f9a4/servicenow-22.png 1560w"
-        sizes="(max-width: 500px) 100vw, 500px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-      />
-    </span></p></div><div class="footer__inner"><div class="footer-row"><div class="footer-column footer-column--left"><div class="footer-column-block"><a href="https://github.com/Hacker0x01/docs.hackerone.com/edit/master/docs/programs/servicenow-integration.md">Edit this page on GitHub</a></div></div><div class="footer-column footer-column--center"><div class="footer-column-block"><span>Was this article helpful?<!-- --> <a href="" class="upvote upvote--up">👍</a> <a href="" class="upvote upvote--down">👎</a></span></div></div><div class="footer-column footer-column--right"><div class="footer-column-block"><a href="https://www.hackerone.com" target="_blank">Back to HackerOne</a></div></div></div></div></article><div class="toc"><div class="toc-wrapper"><div class="sidebar__body"><div class="sidebar__section"><h3 class="sidebar__title sidebar__title--active">On this page</h3><ul class="sidebar__items sidebar__items--active"><li class="sidebar__item"><a href="#set-up">Set up</a></li><li class="sidebar__item"><a href="#configure-incoming-requests">Configure Incoming Requests</a></li><li class="sidebar__item"><a href="#configure-outgoing-requests">Configure Outgoing Requests</a></li><li class="sidebar__item"><a href="#configure-close-report-event">Configure Close Report Event</a></li><li class="sidebar__item"><a href="#configure-on-hackerone">Configure on HackerOne</a></li></ul></div></div></div></div></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+<p>Make sure the arguments for RESTMessageV2 match the name you gave the Outbound REST Message and HTTP Method.</p></div><div class="footer__inner"><div class="footer-row"><div class="footer-column footer-column--left"><div class="footer-column-block"><a href="https://github.com/Hacker0x01/docs.hackerone.com/edit/master/docs/programs/servicenow-integration.md">Edit this page on GitHub</a></div></div><div class="footer-column footer-column--center"><div class="footer-column-block"><span>Was this article helpful?<!-- --> <a href="" class="upvote upvote--up">👍</a> <a href="" class="upvote upvote--down">👎</a></span></div></div><div class="footer-column footer-column--right"><div class="footer-column-block"><a href="https://www.hackerone.com" target="_blank">Back to HackerOne</a></div></div></div></div></article><div class="toc"><div class="toc-wrapper"><div class="sidebar__body"><div class="sidebar__section"><h3 class="sidebar__title sidebar__title--active">On this page</h3><ul class="sidebar__items sidebar__items--active"><li class="sidebar__item"><a href="#set-up">Set up</a></li><li class="sidebar__item"><a href="#configure-incoming-requests">Configure Incoming Requests</a></li><li class="sidebar__item"><a href="#configure-on-hackerone">Configure on HackerOne</a></li><li class="sidebar__item"><a href="#configure-outgoing-requests">Configure Outgoing Requests</a></li><li class="sidebar__item"><a href="#configure-close-report-event">Configure Close Report Event</a></li></ul></div></div></div></div></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
   
   function gaOptout(){document.cookie=disableStr+'=true; expires=Thu, 31 Dec 2099 23:59:59 UTC;path=/',window[disableStr]=!0}var gaProperty='UA-49905813-10',disableStr='ga-disable-'+gaProperty;document.cookie.indexOf(disableStr+'=true')>-1&&(window[disableStr]=!0);
   if(!(parseInt(navigator.doNotTrack) === 1 || parseInt(window.doNotTrack) === 1 || parseInt(navigator.msDoNotTrack) === 1 || navigator.doNotTrack === "yes")) {
