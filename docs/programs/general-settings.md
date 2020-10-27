@@ -7,6 +7,7 @@ id: "programs/general-settings"
 To change the settings of your bounty program follow these steps:
 
 1. Configure your general settings under **Program Settings > General**. You can set up these settings:
+make money online
 
  Option | Detail
  ------ | ------
