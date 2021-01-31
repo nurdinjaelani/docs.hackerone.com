@@ -1,3 +1,7 @@
+vulnerabilities, and this is the test rill.
+and im trying change site from intern site
+saya muncul kedepan for report it
+#nurdinjaelani
 ---
 title: "Invitations"
 path: "/hackers/invitations.html"
